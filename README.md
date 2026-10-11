@@ -56,6 +56,13 @@ cd api && pnpm install && pnpm db:seed   # demo verisi (aynı PostgreSQL'e host 
 Her iki repoda GitHub Actions; lint, format, tip kontrolü, testler ve Docker imaj derlemesini çalıştırır.
 Commit mesajları [Conventional Commits](https://www.conventionalcommits.org) biçimindedir (`feat(auth): ...`), Husky + commitlint ile denetlenir.
 
+Windows'ta Git Credential Manager `git push` sırasında takılırsa, GitHub CLI oturumu kimlik bilgisi sağlayıcısı
+olarak kullanılabilir:
+
+```bash
+GIT_TERMINAL_PROMPT=0 git -c credential.helper= -c 'credential.helper=!gh auth git-credential' push origin main
+```
+
 ### Demo kullanıcılar
 
 | Rol | E-posta | Şifre |
