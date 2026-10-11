@@ -36,8 +36,16 @@ Her faz kendi içinde veritabanı, API, arayüz ve testlerle tamamlanır.
 
 ## Faz 4 — Zimmet ve Demirbaş
 
-Varlık kartı (seri no, QR kod, garanti), personele / departmana / lokasyona zimmet, iade ve devir,
-imzalı PDF tutanak, bakım ve arıza kaydı, amortisman, envanter sayımı, işten ayrılış iade kontrol listesi.
+- [x] Demirbaş kategorileri (varsayılan faydalı ömür) ve depolama konumları (şubeye bağlı)
+- [x] Demirbaş kartı: otomatik demirbaş no, seri no, marka/model, fiziksel durum, satın alma ve garanti
+- [x] QR etiket (demirbaş sayfasına bağlantı, PNG indirme)
+- [x] Personele / departmana / konuma zimmet, iade (durum ve konumla) ve tek adımda devir
+- [x] Zimmet tutanağı: yazdırılabilir / PDF, personelin elektronik onayı, bildirim
+- [x] Bakım ve onarım kaydı (bakımdayken zimmetlenemez), kullanım dışı bırakma (hurda / kayıp)
+- [x] Doğrusal amortisman: aylık tutar, birikmiş amortisman, net defter değeri, yıllık tablo
+- [x] İşten çıkış kontrolü: üzerinde zimmet bulunan personelin çıkışı engellenir
+- [x] Self-servis: "Zimmetlerim" ekranı
+- [ ] Envanter sayımı (QR ile sayım oturumu, fark raporu)
 
 ## Faz 5 — Stok ve Depo
 
