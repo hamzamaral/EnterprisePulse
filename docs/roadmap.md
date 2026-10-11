@@ -49,7 +49,17 @@ Her faz kendi içinde veritabanı, API, arayüz ve testlerle tamamlanır.
 
 ## Faz 5 — Stok ve Depo
 
-Ürün kartı, varyant, çoklu depo, stok hareketleri, transfer, sayım, minimum stok uyarısı, lot / seri takibi.
+- [x] Ürün kategorileri (hiyerarşik), depolar (şubeye bağlı)
+- [x] Ürün kartı: stoklu ürün / hizmet, birim, KDV, alış-satış fiyatı, minimum stok, barkod
+- [x] Varyantlar (renk, beden vb. nitelikler); her ürünün en az bir varyantı vardır
+- [x] Stok hareketleri: giriş, çıkış, depolar arası transfer, düzeltme; işlendiği anda kesinleşir
+- [x] Satır kilidi ile eşzamanlı güvenli bakiye, eksi stok engeli, hareketli ağırlıklı ortalama maliyet
+- [x] Lot takibi (son kullanma tarihi, FEFO sıralı lot listesi) ve seri numarası takibi
+- [x] Stok kartı (hareket defteri, bakiye), depo bazında stok, stok değeri, Excel'e aktarma
+- [x] Stok sayımı: depo bakiyesinin anlık görüntüsü, sayılan miktar, farklar için otomatik düzeltme fişi
+- [x] Minimum stok uyarısı: kritik seviyenin altına inişte stok yöneticilerine bildirim
+- [ ] Rezervasyon (satış siparişine ayrılan stok)
+- [ ] Barkod okutarak sayım
 
 ## Faz 6 — Satın Alma
 
