@@ -25,7 +25,14 @@ Her faz kendi içinde veritabanı, API, arayüz ve testlerle tamamlanır.
 
 ## Faz 3 — İnsan Kaynakları
 
-Personel kartı, organizasyon şeması, departman, pozisyon, izin (workflow ile onay), puantaj, vardiya.
+- [x] Departman (hiyerarşik) ve pozisyon tanımları
+- [x] Personel kartı: kişisel, istihdam ve iletişim bilgileri; sistem kullanıcısına bağlama; işten çıkış
+- [x] Organizasyon şeması (yönetici ilişkisinden)
+- [x] İzin türleri, yıllık bakiyeler (kıdeme göre hak ediş), resmi tatiller
+- [x] İzin talebi: iş günü hesabı, çakışma ve bakiye kontrolü, workflow ile çok adımlı onay, iptal
+- [x] Self-servis: "İzinlerim" ekranı, bakiye kartları
+- [ ] Puantaj (devam takibi)
+- [ ] Vardiya planlama
 
 ## Faz 4 — Zimmet ve Demirbaş
 
