@@ -61,7 +61,7 @@ Her faz kendi içinde veritabanı, API, arayüz ve testlerle tamamlanır.
 - [x] Stok sayımı: depo bakiyesinin anlık görüntüsü, sayılan miktar, farklar için otomatik düzeltme fişi
 - [x] Minimum stok uyarısı: kritik seviyenin altına inişte stok yöneticilerine bildirim
 - [x] Barkod / SKU okutarak sayım
-- [ ] Rezervasyon (satış siparişine ayrılan stok) — Faz 7 satış siparişleriyle birlikte
+- [x] Rezervasyon: onaylı satış siparişine ayrılan stok; kullanılabilir miktar = eldeki − rezerve
 
 ## Faz 6 — Satın Alma
 
@@ -77,7 +77,15 @@ Her faz kendi içinde veritabanı, API, arayüz ve testlerle tamamlanır.
 
 ## Faz 7 — Satış
 
-Teklif, sipariş, irsaliye, fatura, iade.
+- [x] Satış teklifi: geçerlilik süresi, süresi dolan teklifin işaretlenmesi, reddetme, siparişe dönüştürme
+- [x] Satış siparişi: taslak düzenleme, onayda kredi limiti kontrolü (bakiye + açık siparişler), iptal
+- [x] Stok rezervasyonu: onayda kullanılabilir stoktan ayırma, sonradan tamamlama, sevkte düşme;
+      başka siparişe ayrılmış stok çıkış fişleriyle kullanılamaz
+- [x] Sevk irsaliyesi: kısmi sevk, depodan lot / seri numarası seçimi, sevk adresi, yazdırılabilir irsaliye
+- [x] Satış faturası: sevk edilen miktar kadar faturalama (hizmetler siparişsiz), vade, cari hesaba borç,
+      iptalde ters kayıt
+- [x] Satış iadesi: fatura kalemine bağlı kısmi iade, lot / seri ile stoğa geri giriş (ortalama maliyetten),
+      cari hesaba alacak ve faturanın ödeme durumuna mahsup
 
 ## Faz 8 — Cari ve Finans
 
