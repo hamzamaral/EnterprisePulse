@@ -31,8 +31,9 @@ Her faz kendi içinde veritabanı, API, arayüz ve testlerle tamamlanır.
 - [x] İzin türleri, yıllık bakiyeler (kıdeme göre hak ediş), resmi tatiller
 - [x] İzin talebi: iş günü hesabı, çakışma ve bakiye kontrolü, workflow ile çok adımlı onay, iptal
 - [x] Self-servis: "İzinlerim" ekranı, bakiye kartları
-- [ ] Puantaj (devam takibi)
-- [ ] Vardiya planlama
+- [x] Vardiya tanımları (gece vardiyası dahil) ve haftalık vardiya planı; önceki haftayı kopyalama
+- [x] Puantaj: self-servis giriş-çıkış ("Mesaim"), vardiya planı + izin + resmi tatilden aylık
+      çizelge; geç kalma, devamsızlık, fazla mesai; İK düzeltmesi, Excel'e aktarma
 
 ## Faz 4 — Zimmet ve Demirbaş
 
@@ -45,7 +46,8 @@ Her faz kendi içinde veritabanı, API, arayüz ve testlerle tamamlanır.
 - [x] Doğrusal amortisman: aylık tutar, birikmiş amortisman, net defter değeri, yıllık tablo
 - [x] İşten çıkış kontrolü: üzerinde zimmet bulunan personelin çıkışı engellenir
 - [x] Self-servis: "Zimmetlerim" ekranı
-- [ ] Envanter sayımı (QR ile sayım oturumu, fark raporu)
+- [x] Envanter sayımı: kapsamlı sayım oturumu, QR / demirbaş no / seri no ile okutma (kamera
+      desteği), beklenmeyen demirbaş, durum güncelleme, yazdırılabilir fark raporu
 
 ## Faz 5 — Stok ve Depo
 
@@ -58,8 +60,8 @@ Her faz kendi içinde veritabanı, API, arayüz ve testlerle tamamlanır.
 - [x] Stok kartı (hareket defteri, bakiye), depo bazında stok, stok değeri, Excel'e aktarma
 - [x] Stok sayımı: depo bakiyesinin anlık görüntüsü, sayılan miktar, farklar için otomatik düzeltme fişi
 - [x] Minimum stok uyarısı: kritik seviyenin altına inişte stok yöneticilerine bildirim
-- [ ] Rezervasyon (satış siparişine ayrılan stok)
-- [ ] Barkod okutarak sayım
+- [x] Barkod / SKU okutarak sayım
+- [ ] Rezervasyon (satış siparişine ayrılan stok) — Faz 7 satış siparişleriyle birlikte
 
 ## Faz 6 — Satın Alma
 
@@ -75,7 +77,9 @@ Cari hesaplar, tahsilat / ödeme, kasa ve banka, çek / senet, yaşlandırma rap
 
 ## Faz 9 — Dashboard ve Raporlama
 
-KPI kartları, grafikler, filtrelenebilir raporlar, Excel / PDF dışa aktarma.
+- [x] Gösterge paneli: yetkiye göre İK, zimmet ve stok KPI'ları, kritik stok listesi, self-servis
+      kartları (kalan izin, zimmetlerim)
+- [ ] Grafikler, filtrelenebilir raporlar, Excel / PDF dışa aktarma
 
 ## Faz 10+ — Genişletme
 
