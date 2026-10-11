@@ -65,7 +65,15 @@ Her faz kendi içinde veritabanı, API, arayüz ve testlerle tamamlanır.
 
 ## Faz 6 — Satın Alma
 
-Talep, tedarikçi teklifi, teklif karşılaştırma, sipariş, mal kabul, onay akışı.
+- [x] Cari hesaplar (müşteri / tedarikçi): vade, kredi limiti, döviz; cari hareket defteri ve bakiye
+- [x] Ortak ticari belge altyapısı: kalem, iskonto, KDV kırılımı, döviz kuru ve yerel para karşılığı
+- [x] Satın alma talebi: personel self-servis, workflow ile onay, talep edene bildirim
+- [x] Tedarikçi teklifleri ve karşılaştırma tablosu (kalem bazında en iyi net fiyat, en ucuz tam teklif)
+- [x] Teklifi siparişe dönüştürme; diğer açık teklifler otomatik reddedilir
+- [x] Satın alma siparişi: taslak düzenleme, onay, iptal; teslim alınan ve faturalanan miktarların takibi
+- [x] Mal kabul: kısmi teslim, lot / son kullanma ve seri numarasıyla stoğa giriş (sipariş maliyetinden)
+- [x] Alış faturası: üç yönlü eşleştirme (sipariş, teslim alınan, faturalanan), mükerrer fatura no
+      kontrolü, vade hesabı, cari hesaba alacak kaydı, iptalde ters kayıt
 
 ## Faz 7 — Satış
 
