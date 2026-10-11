@@ -1,0 +1,14 @@
+# Child repositories (each has its own git history)
+api/
+web/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+*.log
+
+# Environment
+.env
+.env.*
+!.env.example

@@ -1,0 +1,97 @@
+name: enterprise-pulse
+
+services:
+  postgres:
+    image: postgres:17-alpine
+    container_name: ep-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-erp}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-erp}
+      POSTGRES_DB: ${POSTGRES_DB:-enterprise_pulse}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-erp}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    container_name: ep-redis
+    restart: unless-stopped
+    ports:
+      - "${REDIS_PORT:-6379}:6379"
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  # S3-compatible object storage (MinIO images are no longer published on Docker Hub)
+  storage:
+    image: rustfs/rustfs:latest
+    container_name: ep-storage
+    restart: unless-stopped
+    environment:
+      RUSTFS_ACCESS_KEY: ${S3_ACCESS_KEY:-erpadmin}
+      RUSTFS_SECRET_KEY: ${S3_SECRET_KEY:-erpadmin123}
+      RUSTFS_CONSOLE_ENABLE: "true"
+    ports:
+      - "${S3_PORT:-9000}:9000"
+      - "${S3_CONSOLE_PORT:-9001}:9001"
+    volumes:
+      - storage-data:/data
+
+  mailpit:
+    image: axllent/mailpit:latest
+    container_name: ep-mailpit
+    restart: unless-stopped
+    ports:
+      - "${MAILPIT_SMTP_PORT:-1025}:1025"
+      - "${MAILPIT_UI_PORT:-8025}:8025"
+
+  # Full stack from the repos' Dockerfiles: `docker compose --profile app up -d --build`
+  api:
+    profiles: [app]
+    build: ./api
+    container_name: ep-api
+    restart: unless-stopped
+    depends_on:
+      postgres: { condition: service_healthy }
+      redis: { condition: service_healthy }
+    environment:
+      NODE_ENV: production
+      LOG_LEVEL: info
+      CORS_ORIGINS: http://localhost:8080
+      WEB_APP_URL: http://localhost:8080
+      DATABASE_URL: postgresql://${POSTGRES_USER:-erp}:${POSTGRES_PASSWORD:-erp}@postgres:5432/${POSTGRES_DB:-enterprise_pulse}?schema=public
+      REDIS_URL: redis://redis:6379
+      JWT_ACCESS_SECRET: ${JWT_ACCESS_SECRET:-docker-compose-demo-secret-change-me-please}
+      S3_ENDPOINT: http://storage:9000
+      S3_ACCESS_KEY: ${S3_ACCESS_KEY:-erpadmin}
+      S3_SECRET_KEY: ${S3_SECRET_KEY:-erpadmin123}
+      S3_BUCKET: enterprise-pulse
+      MAIL_HOST: mailpit
+      MAIL_PORT: 1025
+
+  web:
+    profiles: [app]
+    build: ./web
+    container_name: ep-web
+    restart: unless-stopped
+    depends_on: [api]
+    environment:
+      API_UPSTREAM: http://api:3000
+    ports:
+      - "${WEB_PORT:-8080}:80"
+
+volumes:
+  postgres-data:
+  redis-data:
+  storage-data:
