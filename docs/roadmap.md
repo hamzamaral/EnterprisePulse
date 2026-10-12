@@ -127,9 +127,21 @@ Her faz kendi içinde veritabanı, API, arayüz ve testlerle tamamlanır.
 - [x] Göstergeler: açık hat, ağırlıklı tutar, bu ay kazanılan, kazanma oranı (son 90 gün),
       gösterge panelinde CRM kartları, cari kartında fırsatlar ve aktiviteler
 
+## Faz 11 — Masraf ve Harcırah
+
+- [x] Masraf türleri: fişli masraf, günlük harcırah ve km ücretli araç; kalem limiti, fiş zorunluluğu
+- [x] Masraf formu: çok kalemli, dövizli fiş (kayıt anındaki kurla), KDV, fiş görseli / PDF ekleme;
+      personel yalnızca kendi formlarını görür, yetkili kullanıcı başkası adına form açabilir
+- [x] Onay akışı: gönder, geri çek, reddedileni düzeltip yeniden gönder; onaycı formu açıp onaylar,
+      limit üstü ve eksik fiş uyarıları onaycıya gösterilir
+- [x] Ödeme: onaylanan form kasa / bankadan ödenir (hesap hareketi ve nakit akışında görünür),
+      ödeme ters kayıtla geri alınabilir; ödeme yetkililerine ve personele bildirim
+- [x] Göstergeler: onay ve ödeme bekleyen tutarlar, bu ay ödenen, aylık ve türe göre masraf;
+      gösterge panelinde masraflarım ve ödenecek masraflar kartları
+
 ## Faz 11+ — Genişletme
 
-Bordro, masraf ve harcırah, işe alım, performans ve eğitim, proje yönetimi, destek / ticket,
+Bordro, işe alım, performans ve eğitim, proje yönetimi, destek / ticket,
 sözleşme yönetimi, bütçe, araç ve filo, muhasebe, e-Fatura simülasyonu, üretim (MRP).
 
 ## Son — Canlı demo
