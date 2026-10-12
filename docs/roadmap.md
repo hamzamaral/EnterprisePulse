@@ -139,9 +139,23 @@ Her faz kendi içinde veritabanı, API, arayüz ve testlerle tamamlanır.
 - [x] Göstergeler: onay ve ödeme bekleyen tutarlar, bu ay ödenen, aylık ve türe göre masraf;
       gösterge panelinde masraflarım ve ödenecek masraflar kartları
 
+## Faz 12 — Proje Yönetimi
+
+- [x] Proje kartı: müşteri (cari), yönetici, durum (planlandı, devam ediyor, beklemede, tamamlandı, iptal),
+      başlangıç / bitiş, bütçe; geciken ve bütçesi aşan projeler işaretlenir
+- [x] Proje ekibi: rol (lider, üye) ve saatlik maliyet; ekip üyeleri yetki gerekmeden projede çalışır,
+      maliyetleri yalnızca yönetici, liderler ve yetkili kullanıcılar görür
+- [x] Görev panosu: sürükle-bırak sütunlar (yapılacak, devam, incelemede, tamamlandı), öncelik, sorumlu,
+      termin, tahmini süre; atanan kişiye bildirim, "Görevlerim" ekranı
+- [x] Haftalık zaman çizelgesi: proje / görev satırlarına günlük saat girişi, kapanan projeler kilitlenir,
+      işçilik maliyeti girişteki saatlik ücretle hesaplanır
+- [x] Masraf entegrasyonu: masraf formu projeye bağlanır, onaylanan masraf proje maliyetine eklenir,
+      iptalde düşülür; proje detayında masraflar, zaman kayıtları ve bütçe kullanımı
+- [x] Göstergeler: aktif, geciken ve bütçesi aşan projeler; gösterge panelinde görevlerim ve aktif projeler
+
 ## Faz 11+ — Genişletme
 
-Bordro, işe alım, performans ve eğitim, proje yönetimi, destek / ticket,
+Bordro, işe alım, performans ve eğitim, destek / ticket,
 sözleşme yönetimi, bütçe, araç ve filo, muhasebe, e-Fatura simülasyonu, üretim (MRP).
 
 ## Son — Canlı demo
