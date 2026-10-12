@@ -103,7 +103,13 @@ Her faz kendi içinde veritabanı, API, arayüz ve testlerle tamamlanır.
 
 - [x] Gösterge paneli: yetkiye göre İK, zimmet ve stok KPI'ları, kritik stok listesi, self-servis
       kartları (kalan izin, zimmetlerim)
-- [ ] Grafikler, filtrelenebilir raporlar, Excel / PDF dışa aktarma
+- [x] Grafikler: gösterge panelinde son 6 ayın satış / alış ve nakit akışı grafikleri (recharts)
+- [x] Satış ve alış analizi: aylık, cari veya ürün bazında; şirket para biriminde, satış iadeleri düşülmüş;
+      ilk 10 grafiği; dönem, cari ve gruplama filtreleri URL'de
+- [x] Nakit akışı: hesap seçimi, dönem başı / sonu bakiye, aylık giriş / çıkış, belge türü kırılımı;
+      dönem içinde iptal edilen kayıtlar ayıklanır
+- [x] Tüm listelerde ve raporlarda Excel / PDF dışa aktarma (Türkçe karakterli PDF, sayfa numaraları)
+- [x] Fatura detayından tek tıkla "Tahsilat al" / "Ödeme yap" (cari, tutar ve kapama hazır gelir)
 
 ## Faz 10+ — Genişletme
 
