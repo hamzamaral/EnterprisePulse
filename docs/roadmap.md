@@ -111,9 +111,25 @@ Her faz kendi içinde veritabanı, API, arayüz ve testlerle tamamlanır.
 - [x] Tüm listelerde ve raporlarda Excel / PDF dışa aktarma (Türkçe karakterli PDF, sayfa numaraları)
 - [x] Fatura detayından tek tıkla "Tahsilat al" / "Ödeme yap" (cari, tutar ve kapama hazır gelir)
 
-## Faz 10+ — Genişletme
+## Faz 10 — CRM
 
-CRM, bordro, masraf ve harcırah, işe alım, performans ve eğitim, proje yönetimi, destek / ticket,
+- [x] Potansiyel müşteri (aday): kaynak, durum (yeni, görüşüldü, nitelikli, elendi, dönüştürüldü),
+      tahmini değer, sorumlu; elenme nedeni ve yeniden açma
+- [x] Adayı dönüştürme: yeni veya mevcut müşteri cariye bağlama, isteğe bağlı satış fırsatı açma,
+      adayın aktivitelerini cariye taşıma
+- [x] Satış fırsatı hattı: aşamalar (aday, nitelendirme, teklif, pazarlık, kazanıldı, kaybedildi),
+      aşamaya göre varsayılan olasılık, ağırlıklı tutar, beklenen kapanış ve gecikme, kayıp nedeni
+- [x] Sürükle-bırak pano ve liste görünümü; döviz cinsinden fırsatlar şirket para birimine çevrilir
+- [x] Teklif entegrasyonu: fırsattan teklif hazırlama, teklif fırsatı "Teklif" aşamasına taşır,
+      teklifin siparişe dönüşmesi fırsatı kazandırır
+- [x] Aktiviteler: arama, toplantı, e-posta, görev, not; aday / fırsat / cari zaman çizelgesi,
+      geciken ve bugünkü işler, sorumluya bildirim
+- [x] Göstergeler: açık hat, ağırlıklı tutar, bu ay kazanılan, kazanma oranı (son 90 gün),
+      gösterge panelinde CRM kartları, cari kartında fırsatlar ve aktiviteler
+
+## Faz 11+ — Genişletme
+
+Bordro, masraf ve harcırah, işe alım, performans ve eğitim, proje yönetimi, destek / ticket,
 sözleşme yönetimi, bütçe, araç ve filo, muhasebe, e-Fatura simülasyonu, üretim (MRP).
 
 ## Son — Canlı demo
