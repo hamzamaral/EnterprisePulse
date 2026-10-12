@@ -89,7 +89,15 @@ Her faz kendi içinde veritabanı, API, arayüz ve testlerle tamamlanır.
 
 ## Faz 8 — Cari ve Finans
 
-Cari hesaplar, tahsilat / ödeme, kasa ve banka, çek / senet, yaşlandırma raporu.
+- [x] Cari hesaplar: müşteri / tedarikçi kartı, değişmez cari hareket defteri, yürüyen bakiyeli ekstre
+- [x] Kasa ve banka hesapları: döviz bazında bakiye, açılış bakiyesi, hesap hareketleri; kasa eksiye düşmez
+- [x] Tahsilat (TAH) ve ödeme (ODM): nakit, banka, çek, senet; kur ile yerel tutar
+- [x] Faturalara kapama: otomatik (en eski vadeden) veya seçmeli; fatura kısmen ödendi / ödendi olur,
+      iptalde kapamalar çözülür ve ters kayıt atılır
+- [x] Çek / senet (CEK / SNT): portföy, bankaya verme, tahsil, tedarikçiye ciro, karşılıksız (tahsilat
+      iptal edilir); kendi çekimizin vadesinde ödenmesi; her adım hareket geçmişine yazılır
+- [x] Raporlar: yaşlandırma (0-30 / 31-60 / 61-90 / 90+ gün), nakit pozisyonu; Excel'e aktarma
+- [x] Gösterge paneli: alacaklar, borçlar, vadesi geçenler, nakit pozisyonu, açık siparişler
 
 ## Faz 9 — Dashboard ve Raporlama
 
