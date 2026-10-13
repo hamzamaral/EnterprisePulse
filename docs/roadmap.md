@@ -199,10 +199,23 @@ Her faz kendi içinde veritabanı, API, arayüz ve testlerle tamamlanır.
 - [x] Zorunlu eğitim uyumu: personel × eğitim matrisi (geçerli, süresi yaklaşan, süresi geçmiş, alınmamış),
       planlı oturum bilgisi, uyum oranı; eğitim saati, maliyet ve kategori göstergeleri
 
+## Faz 16 — Destek Talepleri
+
+- [x] Talep: numara (TKT), konu, açıklama, kategori, öncelik (düşük, normal, yüksek, acil), talep sahibi,
+      sorumlu; açık, işlemde, bilgi bekleniyor, çözüldü, kapandı durumları
+- [x] Self-servis: herkes kendi talebini açar, yanıtlar, dosya ekler; çözümü onaylayıp puanlar veya
+      yeniden açar; yanıtsız talebi geri çekebilir
+- [x] Kategori: varsayılan sorumluya otomatik atama, sıra ve aktiflik; talebi olan kategori silinemez
+- [x] SLA: öncelik başına ilk yanıt ve çözüm hedefi; bilgi beklenirken çözüm saati durur; öncelik
+      değişince hedefler yeniden hesaplanır; zamanında, riskli, aşıldı, karşılandı, durduruldu durumları
+- [x] Destek ekibi: atama ve üstlenme, durum / öncelik / kategori değişikliği, dahili not, başkası adına
+      talep açma, talep geçmişi ve bildirimler
+- [x] Kuyruk ve göstergeler: bana atanan, atanmamış, SLA aşılan, bilgi bekleyen, onay bekleyen görünümleri;
+      ortalama ilk yanıt ve çözüm süresi, SLA uyumu, memnuniyet, ekip iş yükü, 14 günlük trend
+
 ## Faz 11+ — Genişletme
 
-Destek / ticket,
-sözleşme yönetimi, bütçe, araç ve filo, muhasebe, e-Fatura simülasyonu, üretim (MRP).
+Sözleşme yönetimi, bütçe, araç ve filo, muhasebe, e-Fatura simülasyonu, üretim (MRP).
 
 ## Son — Canlı demo
 
