@@ -166,9 +166,24 @@ Her faz kendi içinde veritabanı, API, arayüz ve testlerle tamamlanır.
 - [x] Self-servis: "Bordrolarım" ve yazdırılabilir ücret pusulası; personel kartında ücret geçmişi
 - [x] Göstergeler: son net ödeme, ödenecek maaşlar, yıllık işveren maliyeti, aylık net ve maliyet grafiği
 
+## Faz 14 — İşe Alım
+
+- [x] İş ilanı: departman, pozisyon, şube, çalışma şekli ve yeri, kadro, ücret aralığı, işe alım yöneticisi,
+      son başvuru tarihi; taslak, yayında, beklemede, kapalı durumları
+- [x] Aday havuzu: iletişim bilgileri, kaynak, beklenen ücret, CV dosyası; bir adayın birden çok ilana
+      başvurusu, aynı ilana mükerrer başvuru engeli
+- [x] Başvuru hattı: başvurdu, ön değerlendirme, mülakat, teklif aşamalarında sürükle-bırak pano; ret
+      (gerekçeli), adayın çekilmesi, yeniden açma; notlar ve süreç geçmişi
+- [x] Mülakat: tür, tarih, süre, yer, mülakatçılar ve bildirim; "Mülakatlarım" ekranında puan, tavsiye ve
+      yorumla değerlendirme, herkes değerlendirince otomatik tamamlanma
+- [x] Teklif: brüt ücret, başlangıç ve geçerlilik tarihi; kabul, ret, geri çekme
+- [x] İşe alma: kabul edilen aday tek işlemde personel kartına ve ilk ücret kaydına dönüşür, kadro dolunca
+      ilan kapanır, işe alım yöneticisine bildirim gider
+- [x] Göstergeler: yayındaki ilanlar, süreçteki başvurular, haftanın mülakatları, işe alım hunisi, kaynaklar
+
 ## Faz 11+ — Genişletme
 
-İşe alım, performans ve eğitim, destek / ticket,
+Performans ve eğitim, destek / ticket,
 sözleşme yönetimi, bütçe, araç ve filo, muhasebe, e-Fatura simülasyonu, üretim (MRP).
 
 ## Son — Canlı demo
