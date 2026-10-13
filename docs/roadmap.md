@@ -227,9 +227,23 @@ Her faz kendi içinde veritabanı, API, arayüz ve testlerle tamamlanır.
 - [x] Göstergeler: yürürlükte, bitiyor, fesih planlanan; para birimine göre yıllık gelir / gider;
       12 aylık bitiş ve yenileme takvimi; yaklaşan karar tarihleri; cari ve personel kartında sözleşmeler
 
+## Faz 18 — Bütçe
+
+- [x] Bütçe kalemi: kod, gelir / gider, gerçekleşen kaynağı (elle giriş, masraf raporu, bordro, satın alma
+      faturası, satış faturası), masraf veya ürün kategorisi eşlemesi, kategorisiz "diğer" kalemi
+- [x] Bütçe: yıl başına şirket geneli ve departman bütçesi, sorumlu, 12 aylık plan; boş, geçen yılın
+      bütçesinden veya gerçekleşeninden yüzde ayarıyla başlatma
+- [x] Akış: taslak, onaylı; gerekçeli yeniden açma ve revizyon numarası, olay geçmişi ve bildirim
+- [x] Gerçekleşen: onaylı masraflar, bordro işveren maliyeti, alış ve satış faturaları (iadeler düşülür),
+      elle girilen bütçe girişleri; departman bütçesi alt departmanları da kapsar
+- [x] Karşılaştırma: aylık ve YBK plan / gerçekleşen, sapma, kullanım oranı, kalem durumu (planda, planı
+      aştı, aşım, geride), kaynak belgelere kırılım, departman grafiği ve dikkat gerektiren kalemler
+- [x] Uyarı: yıllık planın %90'ı ve aşımında sorumluya bildirim ve e-posta; her gün 07:30'da çalışan
+      zamanlanmış iş, elle çalıştırma
+
 ## Faz 11+ — Genişletme
 
-Bütçe, araç ve filo, muhasebe, e-Fatura simülasyonu, üretim (MRP).
+Araç ve filo, muhasebe, e-Fatura simülasyonu, üretim (MRP).
 
 ## Son — Canlı demo
 
