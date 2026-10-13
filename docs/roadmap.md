@@ -213,9 +213,23 @@ Her faz kendi içinde veritabanı, API, arayüz ve testlerle tamamlanır.
 - [x] Kuyruk ve göstergeler: bana atanan, atanmamış, SLA aşılan, bilgi bekleyen, onay bekleyen görünümleri;
       ortalama ilk yanıt ve çözüm süresi, SLA uyumu, memnuniyet, ekip iş yükü, 14 günlük trend
 
+## Faz 17 — Sözleşme Yönetimi
+
+- [x] Sözleşme türü: cari veya personel tarafı, gelir / gider / parasal değil yönü, varsayılan süre ve
+      ihbar süresi; sözleşmesi olan tür silinemez, tarafı değiştirilemez
+- [x] Sözleşme: numara (SZL), cari veya personel, sorumlu, başlangıç / bitiş / imza tarihi, tutar, döviz,
+      ödeme dönemi (tek seferlik, aylık, üç aylık, yıllık), açıklama, imzalı sözleşme ekleri
+- [x] Yaşam döngüsü: taslak, yürürlükte, sona erdi, feshedildi; ileri tarihli fesih ve geri alma, manuel
+      yenileme (yeni bitiş ve tutar), olay geçmişi ve sorumluya bildirim
+- [x] Otomatik yenileme: fesih son gününe kadar bildirilmezse sözleşme yenileme süresi kadar uzar
+- [x] Hatırlatma: bitişten veya fesih son gününden belirli gün önce sorumluya bildirim ve e-posta;
+      her gün 07:00'de çalışan zamanlanmış iş, elle çalıştırma
+- [x] Göstergeler: yürürlükte, bitiyor, fesih planlanan; para birimine göre yıllık gelir / gider;
+      12 aylık bitiş ve yenileme takvimi; yaklaşan karar tarihleri; cari ve personel kartında sözleşmeler
+
 ## Faz 11+ — Genişletme
 
-Sözleşme yönetimi, bütçe, araç ve filo, muhasebe, e-Fatura simülasyonu, üretim (MRP).
+Bütçe, araç ve filo, muhasebe, e-Fatura simülasyonu, üretim (MRP).
 
 ## Son — Canlı demo
 
