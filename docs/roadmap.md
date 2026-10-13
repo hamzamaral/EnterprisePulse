@@ -153,9 +153,22 @@ Her faz kendi içinde veritabanı, API, arayüz ve testlerle tamamlanır.
       iptalde düşülür; proje detayında masraflar, zaman kayıtları ve bütçe kullanımı
 - [x] Göstergeler: aktif, geciken ve bütçesi aşan projeler; gösterge panelinde görevlerim ve aktif projeler
 
+## Faz 13 — Bordro
+
+- [x] Ücret geçmişi: tarihli brüt ücret kayıtları, değişim yüzdesi, planlanan zamlar; onaylı bordrosu olan
+      aylara geriye dönük değişiklik engellenir
+- [x] Bordro parametreleri: yıla göre asgari ücret, SGK tavanı, işçi / işveren prim oranları, damga vergisi,
+      fazla mesai katsayısı ve gelir vergisi dilimleri (2026 değerleri varsayılan)
+- [x] Hesaplama: 30 gün esası, puantajdan eksik gün ve fazla mesai, ücretsiz izin düşümü, SGK matrahı
+      sınırları, kümülatif gelir vergisi, asgari ücret gelir ve damga vergisi istisnaları
+- [x] Bordro dönemi: taslak, yeniden hesaplama, pusulada ek kazanç / kesinti kalemleri, onay ve personele
+      bildirim, tek hazine hareketiyle maaş ödemesi ve ters kayıtla geri alma
+- [x] Self-servis: "Bordrolarım" ve yazdırılabilir ücret pusulası; personel kartında ücret geçmişi
+- [x] Göstergeler: son net ödeme, ödenecek maaşlar, yıllık işveren maliyeti, aylık net ve maliyet grafiği
+
 ## Faz 11+ — Genişletme
 
-Bordro, işe alım, performans ve eğitim, destek / ticket,
+İşe alım, performans ve eğitim, destek / ticket,
 sözleşme yönetimi, bütçe, araç ve filo, muhasebe, e-Fatura simülasyonu, üretim (MRP).
 
 ## Son — Canlı demo
