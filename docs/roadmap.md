@@ -181,9 +181,27 @@ Her faz kendi içinde veritabanı, API, arayüz ve testlerle tamamlanır.
       ilan kapanır, işe alım yöneticisine bildirim gider
 - [x] Göstergeler: yayındaki ilanlar, süreçteki başvurular, haftanın mülakatları, işe alım hunisi, kaynaklar
 
+## Faz 15 — Performans ve Eğitim
+
+- [x] Yetkinlik kataloğu: ad, açıklama, sıra, aktiflik; dönemde kullanılan yetkinlik silinemez
+- [x] Değerlendirme dönemi: dönem tarihleri, öz ve yönetici son tarihleri, hedef / yetkinlik ağırlığı,
+      yetkinlik seçimi; taslak, aktif, kapalı durumları
+- [x] Dönemi başlatma: uygun personel için form, yönetici değerlendiren olarak atanır, bildirim gider
+- [x] Değerlendirme formu: en fazla 10 ağırlıklı hedef, gerçekleşme yüzdesi, öz değerlendirme ve yorum;
+      yönetici puanı, yetkinlik notları, güçlü yönler ve gelişim alanları; geri gönderme, çalışan onayı,
+      İK için yeniden açma; puanların taraflara göre gizlenmesi
+- [x] Puanlama: ağırlıklı hedef puanı, yetkinlik ortalaması, genel puan ve beş kademeli performans bandı;
+      dönem ve departman ortalaması, puan dağılımı
+- [x] Eğitim kataloğu: kod, kategori, format, süre, sağlayıcı, zorunluluk ve sertifika geçerlilik süresi
+- [x] Eğitim oturumu: tarih, yer, eğitmen, kontenjan, maliyet; toplu katılımcı ekleme, self-servis kayıt ve
+      iptal, oturum iptali ve bildirim
+- [x] Katılım: katılan / katılmayan, sınav puanı, sertifika bitiş tarihi; katılımcı memnuniyet anketi
+- [x] Zorunlu eğitim uyumu: personel × eğitim matrisi (geçerli, süresi yaklaşan, süresi geçmiş, alınmamış),
+      planlı oturum bilgisi, uyum oranı; eğitim saati, maliyet ve kategori göstergeleri
+
 ## Faz 11+ — Genişletme
 
-Performans ve eğitim, destek / ticket,
+Destek / ticket,
 sözleşme yönetimi, bütçe, araç ve filo, muhasebe, e-Fatura simülasyonu, üretim (MRP).
 
 ## Son — Canlı demo
