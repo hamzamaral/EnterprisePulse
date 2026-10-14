@@ -281,9 +281,16 @@ Her faz kendi içinde veritabanı, API, arayüz ve testlerle tamamlanır.
 - [x] Ayarlar ve ekranlar: gönderici etiketi, varsayılan profil, otomatik gönderim; carinin e-Fatura
       etiketi; e-Fatura listesi, detay ve XML görüntüleme
 
-## Faz 11+ — Genişletme
+## Faz 22 — Üretim (MRP)
 
-Üretim (MRP).
+- [x] Ürün ağacı: parti miktarı, fire oranı, işçilik ve genel üretim gideri, varsayılan reçete, döngü
+      kontrolü, çok seviyeli standart maliyet ve üretim planı
+- [x] İş emri: taslak, serbest, üretimde, tamamlandı, iptal; planlanan tarihler, malzeme ve mamul deposu,
+      gecikme, eksik kapatma
+- [x] Üretim kaydı: FEFO ile malzeme çıkışı, gerçekleşen tüketim, tam maliyetle mamul girişi ve lotu
+- [x] Malzeme ihtiyaç planlaması: iş emri ve sipariş ihtiyacı, stok, açık satın alma ve üretim
+      netleştirmesi; eksiklerden satın alma talebi veya iş emri
+- [x] Muhasebe: üretim fişi (710 / 711 / 721 / 731), panel, listeler ve ekranlar
 
 ## Son — Canlı demo
 
