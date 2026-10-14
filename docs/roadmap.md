@@ -257,9 +257,21 @@ Her faz kendi içinde veritabanı, API, arayüz ve testlerle tamamlanır.
 - [x] Hatırlatma ve pano: bitişe 30 gün kala ve bittiğinde yöneticilere ve sürücüye bildirim ve e-posta (her
       gün 07:15), yıllık maliyet, km başına maliyet, ortalama tüketim, son 12 ay maliyeti, takip gerektirenler
 
+## Faz 20 — Muhasebe
+
+- [x] Tekdüzen hesap planı: ana hesaplar tek tıkla kurulur, sistem hesapları korunur, noktalı alt hesaplar
+      (120.01) ana hesabın türünü alır ve bakiyesine eklenir; pasife alma ve silme kuralları
+- [x] Yevmiye fişi: taslak, borç = alacak kontrolü, kesinleştirme, ters kayıt; cari ve personel kırılımı
+- [x] Otomatik fiş: satış / alış faturası, satış iadesi, irsaliye maliyeti, stok hareketi, tahsilat / ödeme
+      (çek ve senet ciro dahil), çek tahsili / ödemesi, kasa ve cari açılışı, masraf formu ve ödemesi, bordro
+      ve maaş ödemesi; iptalde ters kayıt, değişen bordroda yeniden kayıt, her gece 02:30'da ve elle
+- [x] Dönem kilidi: kilit tarihine kadar fiş, ters kayıt ve otomatik kayıt engellenir
+- [x] Defterler ve tablolar: muavin defter (yürüyen bakiye, cari filtresi), mizan (alt hesaplı), bilanço
+      (dönem kârı / zararı özkaynakta), Tekdüzen gelir tablosu; Excel / PDF dışa aktarma
+
 ## Faz 11+ — Genişletme
 
-Muhasebe, e-Fatura simülasyonu, üretim (MRP).
+e-Fatura simülasyonu, üretim (MRP).
 
 ## Son — Canlı demo
 
