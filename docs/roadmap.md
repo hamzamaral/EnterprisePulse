@@ -241,9 +241,25 @@ Her faz kendi içinde veritabanı, API, arayüz ve testlerle tamamlanır.
 - [x] Uyarı: yıllık planın %90'ı ve aşımında sorumluya bildirim ve e-posta; her gün 07:30'da çalışan
       zamanlanmış iş, elle çalıştırma
 
+## Faz 19 — Araç ve Filo
+
+- [x] Araç kartı: Türk plakası doğrulama ve tekillik, marka / model, yakıt türü, mülkiyet (şirket malı,
+      uzun / kısa dönem kiralık) ve kiralama bitişi, departman, bakım aralığı (km ve ay)
+- [x] Sürücü zimmeti: zimmetleme, devir (önceki zimmet aynı gün kapanır), teslim alma, zimmet geçmişi ve
+      sürücüye bildirim; hizmetten çıkarılan aracın zimmeti kapanır
+- [x] Km: elle, yakıt, servis ve zimmet okumaları; geriye dönük tutarlılık kontrolü, aylık kat edilen km
+- [x] Yakıt: sürücünün kendi aracına yakıt girişi, depo dolumu yöntemiyle L/100 km, birim fiyat, filo geneli
+      yakıt defteri
+- [x] Bakım: periyodik bakım, onarım, lastik, kaza kayıtları, servis carisi; sonraki bakımın km / tarih
+      planı, yaklaşan ve geciken bakım
+- [x] Muayene ve sigorta: muayene, trafik sigortası, kasko, egzoz emisyon; dönem geçmişi, durum (geçerli,
+      yaklaşıyor, süresi doldu, kayıt yok)
+- [x] Hatırlatma ve pano: bitişe 30 gün kala ve bittiğinde yöneticilere ve sürücüye bildirim ve e-posta (her
+      gün 07:15), yıllık maliyet, km başına maliyet, ortalama tüketim, son 12 ay maliyeti, takip gerektirenler
+
 ## Faz 11+ — Genişletme
 
-Araç ve filo, muhasebe, e-Fatura simülasyonu, üretim (MRP).
+Muhasebe, e-Fatura simülasyonu, üretim (MRP).
 
 ## Son — Canlı demo
 
