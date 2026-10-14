@@ -269,9 +269,21 @@ Her faz kendi içinde veritabanı, API, arayüz ve testlerle tamamlanır.
 - [x] Defterler ve tablolar: muavin defter (yürüyen bakiye, cari filtresi), mizan (alt hesaplı), bilanço
       (dönem kârı / zararı özkaynakta), Tekdüzen gelir tablosu; Excel / PDF dışa aktarma
 
+## Faz 21 — e-Fatura simülasyonu
+
+- [x] UBL-TR 2.1 XML (TR1.2): satıcı ve alıcı (VKN / TCKN), satırlar, KDV kırılımı, döviz kuru, ETTN;
+      e-Fatura (TEMEL / TİCARİ) ve e-Arşiv profili, EPF / EPA serisinde GİB numarası
+- [x] GİB gönderim simülasyonu: kuyrukta, gönderildi, alıcıya ulaştı, hata kodları ve doğrulama mesajları;
+      arka planda iş ve elle eşitleme, durum geçmişi, hatalı faturayı yeniden gönderme
+- [x] Alıcı yanıtı: TİCARİ faturada 8 gün içinde kabul / red, süre dolunca kabul; e-Arşiv iptali ve satış
+      faturasının iptal kuralları
+- [x] Gelen e-fatura: simülasyon, kabul / red, alış faturasına aktarma
+- [x] Ayarlar ve ekranlar: gönderici etiketi, varsayılan profil, otomatik gönderim; carinin e-Fatura
+      etiketi; e-Fatura listesi, detay ve XML görüntüleme
+
 ## Faz 11+ — Genişletme
 
-e-Fatura simülasyonu, üretim (MRP).
+Üretim (MRP).
 
 ## Son — Canlı demo
 
