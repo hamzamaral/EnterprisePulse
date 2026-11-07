@@ -92,6 +92,8 @@ GIT_TERMINAL_PROMPT=0 git -c credential.helper= -c 'credential.helper=!gh auth g
 
 ## Dokümanlar
 
+- [Kullanıcı / ekran kılavuzu](docs/kullanici-kilavuzu.md) ([HTML → PDF](docs/kullanici-kilavuzu.html)) — tüm sayfalar modül gruplarıyla
+- [Teknik kılavuz (NestJS / React)](docs/teknik-kilavuz.md) ([HTML → PDF](docs/teknik-kilavuz.html)) — stack, `api/` + `web/` kod haritası, modül derinliği
 - [Yol haritası](docs/roadmap.md)
 - [Mimari](docs/architecture.md)
 - [Mimari karar kayıtları (ADR)](docs/adr)
