@@ -7,6 +7,15 @@ Modüler, çok şirketli (multi-tenant) ve kurumsal seviyede bir ERP sistemi.
 | [`api/`](api) — `enterprise-pulse-api` | Backend (modüler monolit) | NestJS 11, Prisma, PostgreSQL, Redis, BullMQ, Socket.IO |
 | [`web/`](web) — `enterprise-pulse-web` | Frontend (SPA) | React 19, Vite, TanStack Router/Query/Table, shadcn/ui, Tailwind 4 |
 
+### Yeniden yazımlar (ayrı repolar)
+
+Aynı domain modelinin alternatif stack’leri; demo seed **Pulse Teknoloji** üzerindedir.
+
+| Repo | Stack | Portlar |
+| --- | --- | --- |
+| [EnterprisePulse.NET](https://github.com/hamzamaral/EnterprisePulse.NET) | ASP.NET Core 10 API + Blazor / MudBlazor, Hangfire | 5100 / 5101 |
+| [EnterprisePulse.Java](https://github.com/hamzamaral/EnterprisePulse.Java) | Spring Boot 3.5 API + Vaadin 24, ShedLock | 8180 / 8181 |
+
 Bu kök klasör; yol haritası, mimari dokümanlar ve yerel geliştirme altyapısını (`docker-compose.yml`) içerir.
 `api/` ve `web/` kendi git geçmişleri olan bağımsız repolardır.
 
